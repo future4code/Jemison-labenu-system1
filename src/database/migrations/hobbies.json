@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "hobby":"Praticar Esportes"
+    },
+    {
+        "id":2,
+        "hobby":"Jogar Videogame"
+    },
+    {
+        "id":3,
+        "hobby":"Tocar Instrumentos Musicais"
+    },
+    {
+        "id":4,
+        "hobby":"Dançar"
+    },
+    {
+        "id":5,
+        "hobby":"Ler"
+    },
+    {
+        "id":6,
+        "hobby":"Cozinhar"
+    }
+]

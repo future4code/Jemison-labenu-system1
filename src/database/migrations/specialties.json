@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "specialty": "HTML e CSS"
+  },
+  {
+    "id": 2,
+    "specialty": "React"
+  },
+  {
+    "id": 3,
+    "specialty": "Javascript"
+  },
+  {
+    "id": 4,
+    "specialty": "Typescript"
+  },
+  {
+    "id": 5,
+    "specialty": "SQL"
+  },
+  {
+    "id": 6,
+    "specialty": "Programação Orientada a Objetos"
+  }
+]

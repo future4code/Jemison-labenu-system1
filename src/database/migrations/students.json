@@ -5,7 +5,7 @@
     "email": "re.alexandrini@gmail.com",
     "birth": "1987-06-19",
     "team_id": "1671067052915",
-    "hobby": "boardgames"
+    "hobby_id":6
   },
   {
     "id": "1671066329400",
@@ -13,7 +13,7 @@
     "email": "riosjessica123@gmail.com",
     "birth": "1994-04-25",
     "team_id": "1671067107418",
-    "hobby": "ler"
+    "hobby_id":1
   },
   {
     "id": "1671066335617",
@@ -21,7 +21,7 @@
     "email": "johnsilva448@gmail.com",
     "birth": "1986-01-07",
     "team_id": "1671067025475",
-    "hobby": "futebol"
+    "hobby_id":4
   },
   {
     "id": "1671066341794",
@@ -29,7 +29,7 @@
     "email": "jualmeida159@gmail.com",
     "birth": "1991-06-15",
     "team_id": "1671067096944",
-    "hobby": "natação"
+    "hobby_id":5
   },
   {
     "id": "1671066349225",
@@ -37,7 +37,7 @@
     "email": "pereiraroger488@gmail.com",
     "birth": "2000-12-01",
     "team_id": "1671067113595",
-    "hobby": "jogar videogame"
+    "hobby_id":2
   },
   {
     "id": "1671066390671",
@@ -45,7 +45,7 @@
     "email": "patyandrade321@gmail.com",
     "birth": "1989-08-08",
     "team_id": "1671067797829",
-    "hobby": "jardinagem"
+    "hobby_id":3
   },
   {
     "id": "1671066396679",
@@ -53,7 +53,7 @@
     "email": "hugo199905@gmail.com",
     "birth": "1999-05-30",
     "team_id": "1671067061482",
-    "hobby": "viajar"
+    "hobby_id":1
   },
   {
     "id": "1671066401952",
@@ -61,7 +61,7 @@
     "email": "lisanunes87@gmail.com",
     "birth": "1993-02-15",
     "team_id": "1671067717508",
-    "hobby": "tocar violão"
+    "hobby_id":4
   },
   {
     "id": "1671066407657",
@@ -69,7 +69,7 @@
     "email": "jeffaragao963@gmail.com",
     "birth": "1986-10-08",
     "team_id": "1671067803600",
-    "hobby": "andar de skate"
+    "hobby_id":2
   },
   {
     "id": "1671066414081",
@@ -77,7 +77,7 @@
     "email": "oliveiraana487@gmail.com",
     "birth": "1988-12-18",
     "team_id": "1671067107418",
-    "hobby": "fotografia"
+    "hobby_id":6 
   },
   {
     "id": "1671066419722",
@@ -85,7 +85,7 @@
     "email": "realves778@gmail.com",
     "birth": "2000-05-06",
     "team_id": "1671067073365",
-    "hobby": "tocar piano"
+    "hobby_id":3
   },
   {
     "id": "1671066429212",
@@ -93,7 +93,7 @@
     "email": "silviacampos497@gmail.com",
     "birth": "1993-10-08",
     "team_id": "1671067031612",
-    "hobby": "malhar"
+    "hobby_id":5
   },
   {
     "id": "1671066435213",
@@ -101,7 +101,7 @@
     "email": "denasmagalhas@gmail.com",
     "birth": "1989-07-19",
     "team_id": "1671067120999",
-    "hobby": "leitura"
+    "hobby_id":5
   },
   {
     "id": "1671066441085",
@@ -109,23 +109,23 @@
     "email": "marciaborges349@gmail.com",
     "birth": "1992-08-26",
     "team_id": "1671067726317",
-    "hobby": "jogar videogame"
+    "hobby_id":1
   },
   {
     "id": "1671066447341",
     "name": "David Batista",
-    "email": "",
-    "birth": "",
+    "email": "davidbatista654@gmail.com",
+    "birth": "1995-04-11",
     "team_id": "1671067066652",
-    "hobby": "automobilismo"
+    "hobby_id":6
   },
   {
     "id": "1671068727214",
     "name": "Susana Ribeiro",
-    "email": "",
-    "birth": "",
+    "email": "suribeiro741@gmail.com",
+    "birth": "1996-12-07",
     "team_id": "1671067066652",
-    "hobby": "correr"
+    "hobby_id":3
   },
   {
     "id": "1671068738688",
@@ -133,7 +133,7 @@
     "email": "durocha753@gmail.com",
     "birth": "1992-11-03",
     "team_id": "1671067031612",
-    "hobby": "escaladas"
+    "hobby_id":2
   },
   {
     "id": "1671068746264",
@@ -141,7 +141,7 @@
     "email": "mayara123teixeira@gmail.com",
     "birth": "2004-04-21",
     "team_id": "1671067107418",
-    "hobby": "criar conteúdo para internet"
+    "hobby_id":4
   },
   {
     "id": "1671068751801",
@@ -149,7 +149,7 @@
     "email": "mendesrob684@gmail.com",
     "birth": "1993-03-17",
     "team_id": "1671067120999",
-    "hobby": "pescar"
+    "hobby_id":3
   },
   {
     "id": "1671068757074",
@@ -157,15 +157,15 @@
     "email": "romelo654@gmail.com",
     "birth": "1989-08-05",
     "team_id": "1671067113595",
-    "hobby": "acampar"
-  },
+    "hobby_id":1
+    },
   {
     "id": "1671068762873",
     "name": "Pedro Garcia",
     "email": "pedrinhogarcia1212@gmail.com",
-    "birth": "pegarcia774@gmail.com",
+    "birth": "2002-03-27",
     "team_id": "1671067052915",
-    "hobby": "culinária"
+    "hobby_id": 6
   },
   {
     "id": "1671068780187",
@@ -173,7 +173,7 @@
     "email": "gecardoso456@gmail.com",
     "birth": "1999-04-18",
     "team_id": "1671067096944",
-    "hobby": "dançar"
+    "hobby_id": 4
   },
   {
     "id": "1671068786860",
@@ -181,7 +181,7 @@
     "email": "barbosapaulo32@gmail.com",
     "birth": "1996-09-17",
     "team_id": "1671067061482",
-    "hobby": "surf"
+    "hobby_id": 2
   },
   {
     "id": "1671068792580",
@@ -189,7 +189,7 @@
     "email": "prifreitas45@gmail.com",
     "birth": "1997-02-24",
     "team_id": "1671067073365",
-    "hobby": "yoga"
+    "hobby_id": 5
   },
   {
     "id": "1671068798709",
@@ -197,7 +197,7 @@
     "email": "romachado123@gmail.com",
     "birth": "2002-08-05",
     "team_id": "1671067025475",
-    "hobby": "Malhar"
+    "hobby_id": 1
   },
   {
     "id": "1671069104238",
@@ -205,7 +205,7 @@
     "email": "deianascimento159@gmail.com",
     "birth": "1997-07-19",
     "team_id": "1671067726317",
-    "hobby": "pintura"
+    "hobby_id": 2
   },
   {
     "id": "1671069111408",
@@ -213,7 +213,7 @@
     "email": "andrezaomor778@gmail.com",
     "birth": "1988-03-28",
     "team_id": "1671067803600",
-    "hobby": "arte de rua"
+    "hobby_id": 3
   },
   {
     "id": "1671069116704",
@@ -221,7 +221,7 @@
     "email": "leilabarros963@gmail.com",
     "birth": "1995-09-18",
     "team_id": "1671067797829",
-    "hobby": "fotografia"
+    "hobby_id": 4
   },
   {
     "id": "1671069121680",
@@ -229,6 +229,6 @@
     "email": "dumartins55@gmail.com",
     "birth": "2001-05-14",
     "team_id": "1671067717508",
-    "hobby": "adestrar animais"
+    "hobby_id": 5
   }  
 ]

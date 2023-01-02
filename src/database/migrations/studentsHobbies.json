@@ -1,0 +1,146 @@
+[
+{
+ "student_id":"1671066349225",
+   "hobby_id":5
+},
+{
+   "student_id":"1671066447341",
+    "hobby_id": 2
+ },
+ {
+   "student_id":"1671068792580",
+    "hobby_id": 5
+ },
+ {
+   "student_id":"1671068751801",
+    "hobby_id": 6
+ },
+ {
+   "student_id":"1671068798709",
+    "hobby_id": 3
+ },
+ {
+   "student_id":"1671066329400",
+    "hobby_id": 2
+ },
+ {
+   "student_id":"1671066419722",
+    "hobby_id": 5
+ },
+ {
+   "student_id":"1671069111408",
+    "hobby_id": 4
+ },
+ {
+   "student_id":"1671069121680",
+    "hobby_id": 1
+ },
+ {
+    "student_id":"1671066335617",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671066414081",
+    "hobby_id": 1
+ },
+ {
+    "student_id":"1671066322491",
+    "hobby_id": 6
+ },
+ {
+    "student_id":"1671068780187",
+    "hobby_id": 3
+ },
+ {
+    "student_id":"1671066441085",
+    "hobby_id": 1
+ },
+ {
+      "student_id":"1671069116704",
+    "hobby_id": 5
+ },
+ {
+      "student_id":"1671066390671",
+    "hobby_id": 6
+ },
+ {
+      "student_id":"1671068751801",
+    "hobby_id": 4
+ },
+ {
+      "student_id":"1671066341794",
+    "hobby_id":4
+ },
+ {
+      "student_id":"1671068757074",
+    "hobby_id": 1
+ },
+ {
+      "student_id":"1671066322491",
+    "hobby_id": 5
+ },
+ {
+      "student_id":"1671068786860",
+    "hobby_id": 6
+ },
+ {
+    "student_id":"1671066429212",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671066396679",
+    "hobby_id": 1
+ },
+ {
+    "student_id":"1671068786860",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671066401952",
+    "hobby_id": 2
+ },
+ {
+    "student_id":"1671068738688",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671066329400",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671066441085",
+    "hobby_id": 3
+ },
+ {
+    "student_id":"1671066414081",
+    "hobby_id": 4
+ },
+ {
+    "student_id":"1671069111408",
+    "hobby_id": 1
+ },
+ {
+    "student_id":"1671068746264",
+    "hobby_id": 5
+ },
+ {
+    "student_id":"1671069104238",
+    "hobby_id": 2
+ },
+ {
+    "student_id":"1671066435213",
+    "hobby_id": 6
+ },
+ {
+    "student_id":"1671068727214",
+    "hobby_id": 3
+ },
+ {
+    "student_id":"1671066407657",
+    "hobby_id": 3
+ },
+ {
+    "student_id":"1671068762873",
+    "hobby_id": 2
+ }
+]

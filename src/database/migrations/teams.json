@@ -1,4 +1,7 @@
 [
+  { "id": "0",
+   "name": "Não Alocado",
+    "module": "0" },
   {
     "id": "1671067025475",
     "name": "Shaw",
@@ -69,5 +72,4 @@
     "name": "Sagan",
     "module": "6"
   }
-
 ]

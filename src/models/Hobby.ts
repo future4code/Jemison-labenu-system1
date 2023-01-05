@@ -1,7 +1,7 @@
 export class HobbyClass {
     constructor(
-        private id: number,
-        private hobby: string,
+        private id?: number,
+        private hobby?: string,
 
     ) {
         this.id = id

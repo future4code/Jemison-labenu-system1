@@ -4,8 +4,8 @@ export class PersonClass {
         private id: string,
         private name: string,
         private email: string,
-        private birth: Date,
-        private team_id: string
+        private birth: string,
+        private team_id?: string
     ) {
         this.id = id
         this.name = name
@@ -37,7 +37,7 @@ public setEmail(newEmail:string){
 public getBirth(){
     return this.birth
 }
-public setBirth(newBirth:Date){
+public setBirth(newBirth:string){
     this.birth = newBirth
 }
 

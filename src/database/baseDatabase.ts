@@ -1,4 +1,4 @@
-import { PersonClass } from './../models/Person';
+
 import knex from "knex"
 import dotenv from "dotenv"
 
@@ -19,17 +19,23 @@ export abstract class BaseDatabase {
 
     abstract TABLE_NAME: string;
 
-    public async CreatePerson(person: PersonClass) {
-        await BaseDatabase.connection(this.TABLE_NAME).insert(person);
+    public async GetAll(){
+       const result = await BaseDatabase.connection(this.TABLE_NAME)
+       return result  
+    }
+    public async CreateItem(item: any) {
+         await BaseDatabase.connection(this.TABLE_NAME).insert(item);
+     
     }
     public async ChangeTeamPerson(personId: string, teamId: string) {
         await BaseDatabase.connection(this.TABLE_NAME).where({ id: `${personId}` }).update({ team_id: `${teamId}` });
     }
 
     public async GetPersonByTeam(teamId: string) {
-        await BaseDatabase.connection(this.TABLE_NAME).where({ team_id: `${teamId}` });
+        const result = await BaseDatabase.connection(this.TABLE_NAME).where({ team_id: `${teamId}` });
+   return result
     }
 
 }
 
-
+export default BaseDatabase

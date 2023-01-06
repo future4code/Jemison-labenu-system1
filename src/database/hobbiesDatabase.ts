@@ -1,8 +1,8 @@
-import { HobbyClass } from './../models/Hobby';
+import { HobbyClass } from '../models/Hobby';
 import { BaseDatabase } from './baseDatabase'
 import { TABLE_HOBBIES } from './migrations/tableNames'
 
-export class HobbyDatabase extends BaseDatabase {
+export class HobbiesDatabase extends BaseDatabase {
 
     TABLE_NAME = TABLE_HOBBIES
 
@@ -15,8 +15,8 @@ export class HobbyDatabase extends BaseDatabase {
     }
 
     public async HobbyExists(hobby: string){
-        const hobbyExists = await HobbyDatabase.connection(this.TABLE_NAME).where('hobby', hobby)
-       console.log(hobbyExists)
+        const hobbyExists = await HobbiesDatabase.connection(this.TABLE_NAME).where('hobby', hobby)
+        console.log(hobbyExists)
         return hobbyExists  
     }
 

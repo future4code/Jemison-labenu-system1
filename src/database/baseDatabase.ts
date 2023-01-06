@@ -19,23 +19,25 @@ export abstract class BaseDatabase {
 
     abstract TABLE_NAME: string;
 
-    public async GetAll(){
-       const result = await BaseDatabase.connection(this.TABLE_NAME)
-       return result  
+    public async GetAll() {
+        const result = await BaseDatabase.connection(this.TABLE_NAME)
+        return result
     }
     public async CreateItem(item: any) {
-         await BaseDatabase.connection(this.TABLE_NAME).insert(item);
-     
+        await BaseDatabase.connection(this.TABLE_NAME).insert(item);
+
     }
-    public async ChangeTeamPerson(personId: string, teamId: string) {
+    public async ChangePersonTeam(personId: string, teamId: string) {
         await BaseDatabase.connection(this.TABLE_NAME).where({ id: `${personId}` }).update({ team_id: `${teamId}` });
     }
 
     public async GetPersonByTeam(teamId: string) {
-        const result = await BaseDatabase.connection(this.TABLE_NAME).where({ team_id: `${teamId}` });
-   return result
+        const result = await BaseDatabase.connection.raw(`
+        SELECT id AS Id, name AS "Nome", email AS "Email", DATE_FORMAT(STR_TO_DATE(birth, '%Y-%m-%d'), '%d/%m/%Y') AS "data de nascimento" FROM ${this.TABLE_NAME}
+        WHERE team_id = "${teamId}"; 
+    `)
+        return result[0]
     }
 
 }
 
-export default BaseDatabase

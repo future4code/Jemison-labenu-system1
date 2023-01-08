@@ -36,6 +36,7 @@ export class InstructorsSpecialtiesDatabase extends BaseDatabase {
         INNER JOIN LabeSystem_Specialties s ON s.id = ie.specialty_id
         WHERE ie.instructor_id = "${instructorId}";
         `)
+     
         for(let specialty of result[0] ){
  
             arraySpecialties.push(specialty.specialty)

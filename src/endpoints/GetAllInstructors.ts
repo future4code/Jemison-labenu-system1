@@ -14,9 +14,9 @@ export const GetAllInstructors = async (req: Request, res: Response): Promise<vo
         let array = []
 
         let instructors = await instructorsDatabase.GetAllInstructors()
-
+console.log(instructors)
         for (let instructor of instructors) {
-            let specialties = await instructorsSpecialtiesDatabase.GetSpecialtiesByInstructor(instructor.id)
+            let specialties = await instructorsSpecialtiesDatabase.GetSpecialtiesByInstructor(instructor.Id)
 
 
             let newInstructor = { "Instrutor": instructor, "Especialidades": specialties }

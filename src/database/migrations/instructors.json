@@ -2,99 +2,99 @@
   {
     "id": "1671064229306",
     "name": "Pedro Pereira",
-    "email": "pepereira@gmail.com",
-    "birth": "1990/05/27",
+    "email": "pepereira@labenu.com.br",
+    "birth": "1990/5/27",
     "team_id": "1671067052915"
   },
   {
     "id": "1671065998940",
     "name": "Sonia Albuquerque",
     "email": "soninhaalbu548@labenu.com.br",
-    "birth": "1988/03/02",
+    "birth": "1988/3/02",
     "team_id": "1671067726317"
   },
   {
     "id": "1671066005751",
     "name": "Leandro Amorim",
-    "email": "leoamorim",
-    "birth": "2001/04/03",
+    "email": "leoamorim@labenu.com.br",
+    "birth": "2001/4/03",
     "team_id": "1671067096944"
   },
   {
     "id": "1671066012871",
     "name": "Célia Braga",
     "email": "bragacelia@labenu.com.br",
-    "birth": "1995/12/14",
+    "birth": "1995/2/14",
     "team_id": "1671067803600"
   },
   {
     "id": "1671066020769",
     "name": "Diego Vieira",
     "email": "divieira@labenu.com.br",
-    "birth": "1996/11/27",
+    "birth": "1996/1/27",
     "team_id": "1671067031612"
   },
   {
     "id": "1671066027106",
     "name": "Gabriela Moreira",
     "email": "gabimoreira@labenu.com.br",
-    "birth": "1995/03/17",
+    "birth": "1995/3/17",
     "team_id": "1671067052915"
   },
   {
     "id": "1671066034634",
     "name": "Roberto Monteiro",
     "email": "romonteiro@labenu.com.br",
-    "birth": "1999/09/13",
+    "birth": "1999/9/13",
     "team_id": "1671067073365"
   },
   {
     "id": "1671066041290",
     "name": "Regina Dias",
     "email": "redias@labenu.com.br",
-    "birth": "2001/07/25",
+    "birth": "2001/7/25",
     "team_id": "1671067066652"
   },
   {
     "id": "1671066047931",
     "name": "Fernando Fernandes",
     "email": "fefernandes@labenu.com.br",
-    "birth": "1987/02/20",
+    "birth": "1987/2/20",
     "team_id": "1671067717508"
   },
   {
     "id": "1671066054660",
     "name": "Joana Araújo",
     "email": "joaraujo@labenu.com.br",
-    "birth": "1999/01/17",
+    "birth": "1999/1/17",
     "team_id": "1671067797829"
   },
   {
     "id": "1671066062061",
     "name": "Rafael Fonseca",
     "email": "rafonseca@labenu.com.br",
-    "birth": "1998/05/13",
+    "birth": "1998/5/13",
     "team_id": "1671067025475"
   },
   {
     "id": "1671072627794",
     "name": "Cíntia Frota",
     "email": "cintia@labenu.com.br",
-    "birth": "2000/09/16",
+    "birth": "2000/9/16",
     "team_id": "1671067096944"
   },
   {
     "id": "1671072634803",
     "name": "Geraldo Lima",
     "email": "gelima@labenu.com.br",
-    "birth": "1997/01/29",
+    "birth": "1997/1/29",
     "team_id": "1671067061482"
   },
   {
     "id": "1671072640308",
     "name": "Karina Gomes",
     "email": "kagomes@labenu.com.br",
-    "birth": "2001/11/18",
+    "birth": "2001/1/18",
     "team_id": "1671067107418"
   }
 ]

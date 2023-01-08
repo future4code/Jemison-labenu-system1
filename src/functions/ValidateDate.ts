@@ -1,6 +1,6 @@
 
 
-export function ValidateDate(date: string) {
+export function ValidateDate(date: string):any {
 
   const formatValidate = /^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$/.test(date)
 

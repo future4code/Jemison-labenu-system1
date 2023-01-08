@@ -33,8 +33,8 @@ export class StudentsDatabase extends BaseDatabase {
     }
 
     public async StudentEmailExists(email: string) {
-        const emailExists = await StudentsDatabase.connection(this.TABLE_NAME).where('email', email)
-        return emailExists.length > 0
+        const result = await super.PersonEmailExists(email)
+        return result
     }
 
     public async StudentExists(studentId: string) {
@@ -43,6 +43,10 @@ export class StudentsDatabase extends BaseDatabase {
         return studentExists.length > 0
     }
 
+    public async GetStudentByZodiac() {
+        const result = await super.GetPersonByZodiac()
+        return result
+    }
 
 
 }

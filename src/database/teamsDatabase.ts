@@ -20,5 +20,19 @@ export class TeamsDatabase extends BaseDatabase {
         return teamExistsById[0]
     }
 
+    public async GetActiveTeams() {
+        const result = await TeamsDatabase.connection.raw(`
+            SELECT id AS "Id", name AS "Turma", module AS "Módulo Atual" FROM ${this.TABLE_NAME}
+            WHERE module NOT LIKE "0"
+            ORDER BY module;
+        `)
+        return result[0]
+    }
+
+    public async ChangeModuleTeam(teamId: string, module: string) {
+        await TeamsDatabase.connection(this.TABLE_NAME).where({ id: `${teamId}` }).update({ module: `${module}` });
+    }
 }
-    
+
+
+

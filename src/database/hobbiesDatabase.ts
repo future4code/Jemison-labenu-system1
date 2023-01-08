@@ -6,20 +6,18 @@ export class HobbiesDatabase extends BaseDatabase {
 
     TABLE_NAME = TABLE_HOBBIES
 
-    public async GetAllHobbies(){
-        return super.GetAll();
+    public async GetAllHobbies() {
+        const result = await HobbiesDatabase.connection(this.TABLE_NAME)
+        return result
     }
 
-    public async CreateHobby(hobby: HobbyClass){
+    public async CreateHobby(hobby: HobbyClass) {
         return super.CreateItem(hobby)
     }
 
-    public async HobbyExists(hobby: string){
+    public async HobbyExists(hobby: string) {
         const hobbyExists = await HobbiesDatabase.connection(this.TABLE_NAME).where('hobby', hobby)
-        console.log(hobbyExists)
-        return hobbyExists  
+        return hobbyExists
     }
-
-    
-    }
+}
 

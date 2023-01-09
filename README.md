@@ -8,10 +8,17 @@ Labenu System é um projeto de Backend que tem a finalidade de introduzir a lóg
 O projeto possui o tema da própria institução Labenu, com a criação de uma estrutura de :school:**turmas**, :man_student:**estudantes** e :man_teacher:**instrutuors** com retornos de diferentes formas entre essas entidades.
 <hr>
 
+### Integrantes do grupo:
+* Leonardo Mizuki Koga
+* Renato Alexandrini
+* Rhuan Victor Virtudes Lourenço
+---
+
 <h3>Endpoinst do projeto<h3>
-<h5>
+<h4>
+
 :yellow_circle: Criar turma :school:
- > Endpoint que recebe através de um "body" apenas o nome da nova turma, antes da confirmação da criação, será verificado se já existe alguma turma cadastrada            anteriormente com o mesmo nome.
+>Endpoint que recebe através de um "body" apenas o nome da nova turma, antes da confirmação da criação, será verificado se já existe alguma turma cadastrada            anteriormente com o mesmo nome.
 </br>
 
 :green_circle: Buscar turmas ativas :school:
@@ -54,6 +61,26 @@ O projeto possui o tema da própria institução Labenu, com a criação de uma 
 >Endpoint que recebe através da "query" um termo então retorna todos os estudantes que possuam este termo em qualquer parte do nome ou sobrenome.
 </br>
 
-:green_circle: Buscar todas as pessoas docentes
+:green_circle:Buscar estudantes atrvés de um hobby:man_student:
+>Endpoint que recebe através da "query" um hobby, então verifica se o hobby informado está cadastrado no banco de dados, para então retornar todos os estudantes que pssuam este hobby atribuído.
+</br>
 
-- [x] Mudar docente de turma
+:green_circle:Buscar todas as pessoas através de um signo do Zodíaco:cancer:
+>Endpoint que recebe através da "query" um dos 12 signos do Zodíaco e então retorna todas as pessoas cadastradas, entre estudantes e intrutores são do signo iformado. Neste Endpoint não existe separação entre estudantes e instrutores.
+
+---
+
+### Tecnologia Utilizada:
+* Typescript
+
+<img src="https://user-images.githubusercontent.com/102265620/205476749-786b35ae-cb86-44ab-bff9-4bd8833284b7.png" width="50px">
+
+* SQL
+
+<img src="https://user-images.githubusercontent.com/102265620/205476861-68520703-8f8b-4dc9-9336-fc7d8b4a0764.jpg" width="50px">
+
+### Link da Documentação via Postman
+https://documenter.getpostman.com/view/24755055/2s8Z75Spvm
+
+### Link do Deploy através do Render
+https://jemison-labesystem1.onrender.com

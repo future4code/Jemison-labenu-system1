@@ -1,0 +1,75 @@
+[
+  { "id": "0",
+   "name": "Não Alocado",
+    "module": "0" },
+  {
+    "id": "1671067025475",
+    "name": "Shaw",
+    "module": "3"
+  },
+  {
+    "id": "1671067031612",
+    "name": "Dumont",
+    "module": "2"
+  },
+  {
+    "id": "1671067052915",
+    "name": "Jemison",
+    "module": "5"
+  },
+  {
+    "id": "1671067061482",
+    "name": "Barros",
+    "module": "1"
+  },
+  {
+    "id": "1671067066652",
+    "name": "Lammar",
+    "module": "4"
+  },
+  {
+    "id": "1671067073365",
+    "name": "Guimarães",
+    "module": "6"
+  },
+  {
+    "id": "1671067096944",
+    "name": "Alves",
+    "module": "3"
+  },
+  {
+    "id": "1671067107418",
+    "name": "Paiva",
+    "module": "0"
+  },
+  {
+    "id": "1671067113595",
+    "name": "Cruz",
+    "module": "5"
+  },
+  {
+    "id": "1671067120999",
+    "name": "Bouman",
+    "module": "2"
+  },
+  {
+    "id": "1671067717508",
+    "name": "Hopper",
+    "module": "0"
+  },
+  {
+    "id": "1671067726317",
+    "name": "Freire",
+    "module": "1"
+  },
+  {
+    "id": "1671067797829",
+    "name": "Alves",
+    "module": "4"
+  },
+  {
+    "id": "1671067803600",
+    "name": "Sagan",
+    "module": "6"
+  }
+]
